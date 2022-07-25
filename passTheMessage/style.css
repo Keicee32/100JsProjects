@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aquamarine;
+    font-family: cursive; 
+    font-size: 20px;
+}
+
+.container {
+    text-align: center;
+    margin: 100px auto;
+    background-color: #fff;
+    width: 90%;
+    max-width: 500px;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+#input {
+    width: 90%;
+    border: 2px solid #ccc;
+    padding: 10px;
+}
+
+#error {
+    color: red;
+    text-align: left;
+    margin-left: 25px;
+    text-transform:none
+}
+
+#btn {
+    display: block;
+    margin: 20px auto;
+    padding: 15px 30px;
+    border: none;
+    background-color: teal;
+    color: #fff;
+}
+
+#btn:hover {
+    color: black;
+    background-color: springgreen;
+}
